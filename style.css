@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+#Textocentral {
+  background-color: rgba(48, 48, 48, 1);
+  color: aliceblue;
+  width: 1300px;
+  height: 50px;
+  padding: 180px;
+  font-size: 37px;
+}
+#Textosecundario {
+  font-size: 18px;
+  padding-top: 10px;
+}
+#Estatisticas {
+  background-color: rgb(229, 227, 185);
+  display: grid;
+  grid-auto-flow: column;
+  padding: 40px;
+  align-items: center;
+  padding-left: 120px;
+}
+#segundotitulo {
+  padding-top: 300px;
+  padding-left: 180px;
+}
+#segundotituloo {
+  display: grid;
+  grid-auto-flow: column;
+  font-size: 20px;
+}
+#imagem {
+  padding-top: 80px;
+  display: grid;
+  grid-auto-flow: column;
+  padding-bottom: 40px;
+}
+
+#formulario {
+  background-color: rgba(48, 48, 48, 1);
+  height: 200px;
+  width: 1460px;
+  padding: 100px;
+  font-size: 20px;
+  align-items: center;
+}
+#titulofinal {
+  color: aliceblue;
+  padding-left: 400px;
+}
+
+#form {
+  padding-left: 585px;
+  font-size: 20px;
+  margin-top: 00px;
+}
+#botao {
+  margin-left: 25px;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: rgba(192, 114, 18, 1);
+  padding-left: 8px;
+  border-radius: 8px;
+  width: 200px;
+  height: 40px;
+  color: aliceblue;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#nome,
+#email {
+  font-size: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+  padding-left: 15px;
+}
+
+button:hover {
+  box-shadow: 1px 7px 9px rgb(0, 0, 0);
+  transition-duration: 0, 1;
+  transform: translateY(-5px);
+}
